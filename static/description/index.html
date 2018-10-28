@@ -1,0 +1,171 @@
+
+<section class="container">
+
+    <div class="row">
+        <div class="col-md-12">
+            <p class="mt32" style="font-size:18px">
+                This is the tool of generating popups similar to calendar events alarims in your own modules
+            </p>
+
+            <ul class="nav nav-tabs">
+
+            <li class="active" style="color:#428bca;">
+                <a href="#features"
+                   data-toggle="tab"
+                   aria-expanded="true"
+                >
+                   Features
+                </a>
+            </li>
+
+
+            <li style="color:#428bca;">
+                <a href="#support_info"
+                   data-toggle="tab"
+                   aria-expanded="true"
+                >
+                   Support &amp; Demo
+                </a>
+            </li>
+
+            </ul>
+
+
+            <div class="tab-content mt16">
+
+                <div class="tab-pane active" id="features">
+
+                    <div class="alert alert-warning">
+                        <span style="font-size:18px">
+                            <i class="fa fa-book"/>
+                            The module features depend on your Odoo version.
+                            Please select required one on the top right of this page
+                        </span>
+                    </div>
+
+                    <p class="mt32">
+
+                        <div class="mb8">
+                            <span class="fa fa-check-square-o fa-2x" style="color:#21B799;"/>
+                            <span style="font-size:18px">
+                                Popup is generated Odoo for users
+                            </span>
+                        </div>
+
+                        <div class="mb8">
+                            <span class="fa fa-check-square-o fa-2x" style="color:#21B799;"/>
+                            <span style="font-size:18px">
+                                Popup is invoked each 3 minutes by standard Odoo javascript cron jobs
+                            </span>
+                        </div>
+
+                        <div class="mb8">
+                            <span class="fa fa-check-square-o fa-2x" style="color:#21B799;"/>
+                            <span style="font-size:18px">
+                                You may close the popup just by clicking "Ok"
+                            </span>
+                        </div>
+
+                        <div class="mb8">
+                            <span class="fa fa-check-square-o fa-2x" style="color:#21B799;"/>
+                            <span style="font-size:18px">
+                                Notifications do not depend on a definite object. You may create in any place disregarding Odoo models
+                            </span>
+                        </div>
+
+                    </p>
+
+                        <div class="col-md-12 mb32 alert alert-info">
+                             <span style="font-size:18px">
+                                Feedback allows improving Odoo tools for you. If you tested the app, please
+                                leave a review <a href="https://apps.odoo.com/apps/modules/8.0/popup_notifications">on the product page</a>
+                             </span>
+                        </div>
+
+                    <div class="mb8">
+                        <h3>Use case</h3>
+                        <span style="font-size:18px">
+                            <p>
+    <code>
+     values = {'status': 'draft','title': u'Be notified about','message': "Do not forget to send notification in  21.04.17",'partner_ids': [(6, 0, [1, 2, 3])]}
+    </code>
+</p>
+<p>
+    <code>
+     self.env['popup.notification'].create(values)
+    </code>
+</p>
+                        </span>
+                    </div>
+
+                </div>
+
+
+                <div class="tab-pane" id="support_info">
+
+                    <div class="col-md-12">
+                        <p style="font-size:18px;">
+                            <a href="https://odootools.com/">OdooTools</a> is the team of developers and business analysts to help you extend Odoo potential. We have been communicating with end users to whom the software became the main business tool since 2012. As a result, we are proud of dozens of successful Odoo apps developed.  We are open for new ideas and challenges to create the best Odoo tools for business needs all over the world.
+                        </p>
+
+                        <p style="font-size:18px;">
+                            This tool has been developed in cooperation with <a href="https://itlibertas.com/">IT Libertas</a> - one of the leading Odoo
+                            integrators in Russia.
+                        </p>
+
+                    </div>
+
+                    <div class="col-md-12 mb4 alert alert-success">
+                         <span style="font-size:18px">
+                            To contact us please register in our support system. Registration form is available by any link below. Registration doesn't take more than 30 seconds. No phone number or credit card are required
+                         </span>
+                    </div>
+
+                    <div class="col-md-12"
+                         style="background-color:#339966; padding:2%;"
+                    >
+                        <div style="font-size:25px;" class="text-center">
+                            <a href="https://odootools.com/my/tickets/newticket?&amp;x_custom_1=x_option_58&amp;x_custom_2=x_option_6&amp;url_type_id=1"
+                               target="_blank"
+                               style="color:white;padding:0 1% 0 1%"
+                            >
+                                <i class="fa fa-bug" style="color:white;"/> Bug Report
+                            </a>
+                            <a href="https://odootools.com/my/tickets/newticket?&amp;x_custom_1=x_option_58&amp;x_custom_2=x_option_6&amp;url_type_id=4"
+                               target="_blank"
+                               style="color:white;padding:0 1% 0 1%"
+                            >
+                                <i class="fa fa-info-circle" style="color:white;"/> Raise Question
+                            </a>
+                            <a href="https://odootools.com/my/tickets/newticket?&amp;x_custom_1=x_option_58&amp;x_custom_2=x_option_6&amp;url_type_id=2"
+                               target="_blank"
+                               style="color:white;padding:0 1% 0 1%"
+                            >
+                                <i class="fa fa-bookmark" style="color:white;"/> New Features
+                            </a>
+                        </div>
+                        <div style="font-size:25px"  class="text-center">
+                            <a href="https://odootools.com/my/tickets/newticket?&amp;x_custom_1=x_option_58&amp;x_custom_2=x_option_6&amp;url_type_id=3&amp;name=Demo Database for Testing"
+                               target="_blank"
+                               style="color:white;padding:0 1% 0 1%"
+                            >
+                                <i class="fa fa-laptop" style="color:white;"/>  Request Demo Database (Live Preview)
+                            </a>
+                            <a href="https://odootools.com/my/tickets/newticket?&amp;x_custom_1=x_option_58&amp;x_custom_2=x_option_6&amp;url_type_id=5"
+                               target="_blank"
+                               style="color:white;padding:0 1% 0 1%"
+                            >
+                                <i class="fa fa-lightbulb-o" style="color:white;"/>  Share Module Ideas
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+    </div>
+</section>
+
+                
