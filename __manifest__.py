@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 {
     "name": "Popup notifications",
-    "version": "9.10.11",
+    "version": "9.10.11.12",
     "category": "Extra Tools",
     "author": "Mostafa Mohamed",
     "website": "m.dev.odoo@gmail.com",
